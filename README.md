@@ -7,9 +7,10 @@ requires just 6.9 microseconds per key (total time: 13.81 seconds), while a comp
 of all keys takes 7 microseconds per key (total time: 13.96 seconds) on a system powered
 by a 12th Gen Intel® Core™ i5-12400 @ 2.50 GHz running Windows 11.</p>
 
-## Author  
-**Xavier Ramón Junqué i de Fortuny**  
-[https://xrjunque.nom.es](https://xrjunque.nom.es)
+## Author
+
+This indexing method (DiDi – Differential Directory) was developed by **X.R. Junqué**, 2025.  
+More information available at: [https://xrjunque.nom.es/DiDi](https://xrjunque.nom.es/DiDi)
 
 ## Features
 - Retrieves the differentiating bit of a key with respect to the previous one and stores only this position in the index.
