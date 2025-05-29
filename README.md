@@ -1,4 +1,4 @@
-#DiDi – Differential Directory Indexing Method
+# DiDi – Differential Directory Indexing Method
 
 The Differential Directory (DiDi) stores only the difference between each key and the previous one (already sorted), instead of storing full keys in each node.
 DiDi is a versatile and efficient indexing method applicable to files, directories, keys, 
@@ -7,14 +7,14 @@ requires just 6.9 microseconds per key (total time: 13.81 seconds), while a comp
 of all keys takes 7 microseconds per key (total time: 13.96 seconds) on a system powered
 by a 12th Gen Intel® Core™ i5-12400 @ 2.50 GHz running Windows 11.</p>
 
-#Features
+## Features
 - Retrieves the differentiating bit of a key with respect to the previous one and stores only this position in the index.
 - With at most one single disk read, assuming the index is in memory, it determines whether the key exists or not.
 - The index is always sorted and therefore requires no reorganization.
 - Performance is proportional to the length of the keys, not to the size of the index.
 - Insertions require updating at most two or three nodes.
 
-#Differential Directory (DiDi) – Brief Description
+## Differential Directory (DiDi) – Brief Description
 
 The Differential Directory (DiDi) stores only the difference between each key and the previous one (already sorted), instead of storing full keys in each node.
 Much like when writing a list by hand and using quotation marks (“) to indicate repetition from the line above —for example:
