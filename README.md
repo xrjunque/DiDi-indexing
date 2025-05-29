@@ -15,6 +15,7 @@ by a 12th Gen Intel® Core™ i5-12400 @ 2.50 GHz running Windows 11.</p>
 - Insertions require updating at most two or three nodes.
 
 #Differential Directory (DiDi) – Brief Description
+
 The Differential Directory (DiDi) stores only the difference between each key and the previous one (already sorted), instead of storing full keys in each node.
 Much like when writing a list by hand and using quotation marks (“) to indicate repetition from the line above —for example:
 John Miles
